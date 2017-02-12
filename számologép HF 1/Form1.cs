@@ -22,19 +22,22 @@ namespace számologép_HF_1
         }
         private void buttonCE_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "0";
+        
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
-            ???= 0;
+            
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            if (???=0)
-                textBox1.Text = 0;
+           
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
