@@ -16,5 +16,25 @@ namespace számologép_HF_1
         {
             InitializeComponent();
         }
+  private void button1_Click(object sender, EventArgs e)
+        {
+           
+        }
+        private void buttonCE_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "0";
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            ???= 0;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (???=0)
+                textBox1.Text = 0;
+        }
     }
 }
