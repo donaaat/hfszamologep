@@ -16,28 +16,38 @@ namespace számologép_HF_1
         {
             InitializeComponent();
         }
-  private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-           
+
         }
         private void buttonCE_Click(object sender, EventArgs e)
         {
-        
+
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void szamok(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Contains("nem oszthato nulaval&quot")
+            {
+                textBox1.Clear();
+            }
+            Button b = (Button)sender;
+            textBox1.Text = textBox1.Text + b;
         }
     }
 }
